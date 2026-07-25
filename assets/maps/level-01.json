@@ -1,0 +1,77 @@
+{
+  "name": "Development Arena",
+  "version": 1,
+  "spawn": {
+    "x": 4,
+    "y": 1.6,
+    "z": 4,
+    "yaw": 0,
+    "pitch": 0
+  },
+  "environment": {
+    "floorMaterial": "floorGray",
+    "ceilingMaterial": "ceilingDark",
+    "hasCeiling": true
+  },
+  "blocks": {
+    "0": {
+      "name": "empty",
+      "category": "space",
+      "solid": false,
+      "interactive": false
+    },
+    "1": {
+      "name": "north_red_wall",
+      "category": "wall",
+      "solid": true,
+      "wallMaterial": "wallRed",
+      "interactive": false
+    },
+    "2": {
+      "name": "east_blue_wall",
+      "category": "wall",
+      "solid": true,
+      "wallMaterial": "wallBlue",
+      "interactive": false
+    },
+    "3": {
+      "name": "south_green_wall",
+      "category": "wall",
+      "solid": true,
+      "wallMaterial": "wallGreen",
+      "interactive": false
+    },
+    "4": {
+      "name": "west_yellow_wall",
+      "category": "wall",
+      "solid": true,
+      "wallMaterial": "wallYellow",
+      "interactive": false
+    },
+    "10": {
+      "name": "door_placeholder",
+      "category": "door",
+      "solid": true,
+      "wallMaterial": "wallDoor",
+      "interactive": true
+    },
+    "20": {
+      "name": "switch_placeholder",
+      "category": "switch",
+      "solid": false,
+      "interactive": true
+    }
+  },
+  "tiles": [
+    [4, 1, 1, 1, 1, 1, 1, 2],
+    [4, 0, 0, 0, 0, 0, 0, 2],
+    [4, 0, 0, 0, 0, 0, 0, 2],
+    [4, 0, 0, 0, 0, 0, 0, 2],
+    [4, 0, 0, 0, 0, 0, 0, 2],
+    [4, 0, 0, 0, 0, 0, 0, 2],
+    [4, 0, 0, 0, 0, 0, 0, 2],
+    [4, 3, 3, 3, 3, 3, 3, 2]
+  ],
+  "interactives": [],
+  "objects": []
+}

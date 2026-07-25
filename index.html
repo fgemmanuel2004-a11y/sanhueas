@@ -1,1 +1,65 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SANHUEAS</title><link rel="stylesheet" href="style.css"></head><body><canvas id="gameCanvas"></canvas><script src="config.js"></script><script src="state.js"></script><script src="input.js"></script><script src="engine.js"></script><script src="map.js"></script><script src="renderer.js"></script><script src="raycaster.js"></script><script src="game.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SANHUEAS - FPS Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <!-- Three.js Library (Modern 3D Engine) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- Core System -->
+  <script src="src/core/config.js"></script>
+  <script src="src/core/utils.js"></script>
+  <script src="src/core/state.js"></script>
+  <script src="src/core/engine.js"></script>
+
+  <!-- Input System -->
+  <script src="src/input/input.js"></script>
+
+  <!-- Math & Utilities -->
+  <script src="src/math/vector.js"></script>
+
+  <!-- World System -->
+  <script src="src/world/block-registry.js"></script>
+  <script src="src/world/map.js"></script>
+  <script src="src/world/map-loader.js"></script>
+
+  <!-- Player System -->
+  <script src="src/player/player.js"></script>
+  <script src="src/player/camera.js"></script>
+  <script src="src/player/weapon.js"></script>
+
+  <!-- Rendering System -->
+  <script src="src/renderer/texture.js"></script>
+  <script src="src/renderer/raycaster.js"></script>
+  <script src="src/renderer/column-renderer.js"></script>
+  <script src="src/renderer/renderer.js"></script>
+
+  <!-- Entity System -->
+  <script src="src/entities/entity.js"></script>
+  <script src="src/entities/enemy.js"></script>
+  <script src="src/entities/item.js"></script>
+  <script src="src/entities/entity-manager.js"></script>
+
+  <!-- 3D System (Modern Engine) -->
+  <script src="src/3d/three-setup.js"></script>
+  <script src="src/3d/materials.js"></script>
+  <script src="src/3d/world-geometry.js"></script>
+  <script src="src/3d/physics.js"></script>
+  <script src="src/3d/camera-3d.js"></script>
+  <script src="src/player/player-3d.js"></script>
+
+  <!-- UI System -->
+  <script src="src/ui/menu.js"></script>
+  <script src="src/ui/hud.js"></script>
+  <script src="src/ui/minimap.js"></script>
+
+  <!-- Main Game -->
+  <script src="src/game.js"></script>
+</body>
+</html>
