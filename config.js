@@ -1,1 +1,1 @@
-const CONFIG={title:'SANHUEAS',targetFPS:60};
+const CONFIG={targetFPS:60,tile:64};

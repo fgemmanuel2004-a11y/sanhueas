@@ -1,3 +1,1 @@
-const Input={keys:{}};
-addEventListener('keydown',e=>Input.keys[e.key.toLowerCase()]=true);
-addEventListener('keyup',e=>Input.keys[e.key.toLowerCase()]=false);
+const Input={keys:{}};addEventListener('keydown',e=>Input.keys[e.key.toLowerCase()]=1);addEventListener('keyup',e=>Input.keys[e.key.toLowerCase()]=0);

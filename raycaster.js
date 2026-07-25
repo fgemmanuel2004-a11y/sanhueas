@@ -1,0 +1,1 @@
+// Base del raycaster. Se implementará en la Parte 5.
