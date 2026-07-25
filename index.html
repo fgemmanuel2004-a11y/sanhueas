@@ -2,36 +2,16 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SANHUEAS - FPS Retro</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SANHUEAS v0.2.1</title>
+<style>
+html,body{margin:0;overflow:hidden;background:#000}
+canvas{display:block}
+</style>
 </head>
 <body>
-
-<div id="hud">
-  <div id="logo">SANHUEAS</div>
-  <div id="stats">
-    ❤️ Vida: <span id="health">100</span>
-    &nbsp;&nbsp;
-    🔫 Munición: <span id="ammo">50</span>
-    &nbsp;&nbsp;
-    📈 FPS: <span id="fps">0</span>
-  </div>
-</div>
-
 <canvas id="game"></canvas>
-
-<div id="startScreen">
-  <h1>SANHUEAS</h1>
-  <p>FPS Retro inspirado en los clásicos de los años 90.</p>
-  <button id="startButton">JUGAR</button>
-  <p class="controls">
-    WASD = Moverse<br>
-    Mouse = Mirar<br>
-    Click = Disparar
-  </p>
-</div>
-
+<script src="player.js"></script>
 <script src="game.js"></script>
 </body>
 </html>
