@@ -1,1 +1,9 @@
-const CONFIG={targetFPS:60,tile:64};
+const SCREEN_WIDTH = 640;
+const SCREEN_HEIGHT = 480;
+
+const HALF_WIDTH = SCREEN_WIDTH / 2;
+const HALF_HEIGHT = SCREEN_HEIGHT / 2;
+
+const NUM_RAYS = SCREEN_WIDTH;
+const MAX_DEPTH = 20;
+const TILE_SIZE = 1;

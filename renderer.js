@@ -1,1 +1,6 @@
-function drawWorld(ctx,c){ctx.fillStyle='#6db8ff';ctx.fillRect(0,0,c.width,c.height/2);ctx.fillStyle='#444';ctx.fillRect(0,c.height/2,c.width,c.height/2);ctx.strokeStyle='#fff';ctx.beginPath();ctx.moveTo(c.width/2-8,c.height/2);ctx.lineTo(c.width/2+8,c.height/2);ctx.moveTo(c.width/2,c.height/2-8);ctx.lineTo(c.width/2,c.height/2+8);ctx.stroke();}
+const Renderer = {
+    clear(){
+        ctx.fillStyle = "#202020";
+        ctx.fillRect(0,0,canvas.width,canvas.height);
+    }
+};

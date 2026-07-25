@@ -1,1 +1,9 @@
-const Player={x:2.5,y:2.5,angle:0};
+const Player = {
+    x: 3.5,
+    y: 3.5,
+    angle: 0,
+    fov: Math.PI / 3,
+    moveSpeed: 3.5,
+    rotSpeed: Math.PI,
+    radius: 0.2
+};

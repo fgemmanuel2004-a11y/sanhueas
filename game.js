@@ -1,1 +1,7 @@
-const canvas=document.getElementById('gameCanvas');const ctx=canvas.getContext('2d');function rs(){canvas.width=innerWidth;canvas.height=innerHeight}addEventListener('resize',rs);rs();function loop(){drawWorld(ctx,canvas);requestAnimationFrame(loop)}loop();
+function update(deltaTime){
+
+}
+
+function render(){
+
+}
