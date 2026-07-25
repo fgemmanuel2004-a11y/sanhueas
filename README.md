@@ -1,1 +1,0 @@
-Parte 2: Canvas responsive, game loop y FPS.
